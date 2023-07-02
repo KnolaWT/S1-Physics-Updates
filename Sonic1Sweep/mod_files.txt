@@ -1,0 +1,5 @@
+add raw/misc/photomode.pac
+add combatdx/raw/character/playercommon.pac
+add hmc/raw/character/playercommon.pac
+add vanilla/raw/character/playercommon.pac
+add mod.ini

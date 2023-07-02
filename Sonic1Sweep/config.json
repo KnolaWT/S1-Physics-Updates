@@ -1,0 +1,47 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Configuration",
+      "Elements": [
+		{
+          "Name": "IncludeDir1",
+		  "Description": [
+		    "Loads different Combat values from different mods"
+		  ],
+          "DisplayName": "Combat values from:",
+          "Type": "CombatEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "vanilla"
+		}
+      ]
+    }
+  ],
+  "Enums": {
+    "CombatEnum": [
+      {
+	      "DisplayName": "HMC",
+        "Value": "hmc",
+        "Description": [
+          "Use combat values from HMC"
+        ]
+      },
+      {
+        "DisplayName": "Vanilla",
+        "Value": "vanilla",
+        "Description": [
+          "Use combat values from vanilla"
+        ]
+      },
+      {
+        "DisplayName": "Combat DX",
+        "Value": "combatdx",
+        "Description": [
+          "Use combat values from Combat DX"
+        ]
+      }
+    ]
+	},
+  "IniFile": "mod.ini"
+}
